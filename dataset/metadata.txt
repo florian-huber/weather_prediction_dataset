@@ -1,0 +1,77 @@
+Weather prediction dataset
+
+ORIGINAL DATA TAKEN FROM:
+
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 22-04-2021
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+-----------
+Data collection selection and processing
+----------
+
+The initial meteorological data was retrieved from ECA&D [1] a project that makes available daily 
+observations at meteorological stations throughout Europe and the Mediterranean. 18 different European 
+cities or places were selected of which multiple daily observations were available through the 
+years 2000 to 2010. Those where Basel (Switzerland), Budapest (Hungary), Dresden, Düsseldorf, 
+Kassel, München (all  Germany), De Bilt and Maastricht (the Netherlands), Heathrow (UK), Ljubljana (Slovenia), 
+Malmo and Stockholm (Sweden), Montélimar, Perpignan and Tours (France), Oslo (Norway), Roma (Italy), and 
+Sonnblick (Austria). 
+
+Recordings of daily meteorological observations for these 18 locations span different times, some contain 
+collections that go back to the 19th century. Here, however, we only selected the time span from 
+2000 to 2010 resulting in 3654 daily observations. The dataset is then constructed from all data of 
+those 18 locations.
+
+The data in addition consists of different observations. While all selected locations provide data 
+for the variables ‘mean temperature’, ‘max temperature’, and ‘min temperature’, we also included 
+data for the variables 'cloud_cover', 'wind_speed', 'wind_gust', 'humidity', 'pressure', 'global_radiation', 
+'precipitation', 'sunshine' wherever those were available. 
+
+After collecting the data, very basic cleaning of the data was performed. Columns with > 5% invalid 
+entries (“-9999”) were removed, columns with <= 5% invalid entries where kept but invalid entries 
+were replaced by mean values. This resulted in 165 variables (or features) over the course of 3654 days.
+Finally, we transformed several data units to achieve more similar ranges of the present values. 
+This makes the data more suitable to be used for machine learning or deep learning even without 
+additional processing. We deliberately did not chose to fully standardize the data because we 
+wanted to keep the presented units and values as intuitively accessible as possible. Temperature are 
+now given in degree Celsius, wind speed and gust in m/s, humidity in fraction of 100%, sea level 
+pressure in 1000 hPa, global radiation in 100 W/m2, precipitation amounts in centimeter, sunshine in hours.
+
+
+-----------
+Physical units of the variables:
+----------
+
+ORIGINAL DATA UNITS:
+CC   : cloud cover in oktas
+DD   : wind direction in degrees
+FG   : wind speed in 0.1 m/s
+FX   : wind gust in 0.1 m/s
+HU   : humidity in 1 %
+PP   : sea level pressure in 0.1 hPa
+QQ   : global radiation in W/m2
+RR   : precipitation amount in 0.1 mm
+SS   : sunshine in 0.1 Hours
+TG   : mean temperature in 0.1 &#176;C
+TN   : minimum temperature in 0.1 &#176;C
+TX   : maximum temperature in 0.1 &#176;C
+
+
+CONVERTED to:
+CC   : cloud cover in oktas
+DD   : wind direction in degrees
+FG   : wind speed in 1 m/s
+FX   : wind gust in 1 m/s
+HU   : humidity in fraction of 100 %
+PP   : sea level pressure in 1000 hPa
+QQ   : global radiation in 100 W/m2
+RR   : precipitation amount in 10 mm
+SS   : sunshine in 1 Hours
+TG   : mean temperature in 1 &#176;C
+TN   : minimum temperature in 1 &#176;C
+TX   : maximum temperature in 1 &#176;C
