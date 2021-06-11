@@ -1,35 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@dafnevk 
-escience-academy
-/
-machine-learning-material
-4
-0
-1
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-machine-learning-material/.gitignore
-@dafnevk
-dafnevk First two notebooks
-Latest commit 1285315 on 30 Apr
- History
- 1 contributor
-131 lines (106 sloc)  1.77 KB
-  
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
