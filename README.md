@@ -17,7 +17,7 @@ If you make use of this dataset, in particular if this is in form of an academic
 air temperature and precipitation series for the European Climate Assessment.
 Int. J. of Climatol., 22, 1441-1453.
 Data and metadata available at http://www.ecad.eu
-- Florian Huber, Dafne van Kuppevelt, Peter Steinbach, Colin Sauze, Yang Liu, Berend Weel, "Will the sun shine? – An accessible datasetfor teaching machine learning and deep learning", DOI TO BE ADDED!
+- Florian Huber, Dafne van Kuppevelt, Peter Steinbach, Colin Sauze, Yang Liu, Berend Weel, "Will the sun shine? – An accessible dataset for teaching machine learning and deep learning", DOI TO BE ADDED!
 
 
 ## Map of the locations of the 18 weather stations from which data was collected
