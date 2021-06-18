@@ -7,7 +7,7 @@ The dataset contains intuitively accessible weather observations from 18 locatio
 We provide examples of possible training tasks that could be covered with the dataset (see the Jupyter notebooks in `\notebooks\` for the used Python code). 
 The compact size and complexity of the dataset makes it possible to quickly train common machine learning and deep learning models on a standard laptop so that it can used in live hands-on sessions.
 
-The dataset can be found in the `\dataset\` folder in this repository or can be downloaded from zenodo: https://doi.org/10.5281/zenodo.4770937
+The dataset can be found in the `\dataset\` folder in this repository or can be downloaded from zenodo: https://doi.org/10.5281/zenodo.4980359
 
 
 ## References
