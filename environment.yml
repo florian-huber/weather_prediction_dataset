@@ -6,3 +6,4 @@ dependencies:
   - pandas
   - basemap
   - tensorflow
+  - scikit-learn
