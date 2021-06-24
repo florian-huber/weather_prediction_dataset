@@ -1,3 +1,5 @@
+![GitHub](https://img.shields.io/github/license/florian-huber/weather_prediction_dataset)
+
 # Weather prediction dataset
 ## A dataset for teaching machine learning and deep learning
 
