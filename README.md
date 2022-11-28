@@ -11,6 +11,7 @@ The compact size and complexity of the dataset makes it possible to quickly trai
 
 The dataset can be found in the `\dataset\` folder in this repository or can be downloaded from zenodo: https://doi.org/10.5281/zenodo.7053722
 
+The dataset was presented at the "Teaching Machine Learning" workshop at ECML 2022: https://teaching-ml.github.io/2022/
 
 ## References
 If you make use of this dataset, in particular if this is in form of an academic contribution, then please cite the following two references:
