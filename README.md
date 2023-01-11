@@ -14,6 +14,13 @@ The dataset can be found in the `\dataset\` folder in this repository or can be 
 The dataset was presented at the "Teaching Machine Learning" workshop at ECML 2022: https://teaching-ml.github.io/2022/
 
 ----------
+## Dataset files
+
+- `weather_prediction_dataset.csv` - Main data file, tabular data, comma-separated CSV. Contains the data for different weather features (daily observations, see below for more details) for 18 European cities or places through the years 2000 to 2010.
+- `weather_prediction_picnic_labels.csv` - Optional data to be used as potential labels for classification tasks. Contains booleans to characterize the daily weather conditions as suitable for picnic (True) or not (False) for all 18 locations in the dataset.
+- `weather_prediction_dataset_map.png`- Simple map showing all 18 locations in Europe.
+- `metadata.txt` - Further information on the dataset, the data processing and conversion, as well as the description and units of all weather features.
+
 ## Data collection selection and processing
 
 The initial meteorological data was retrieved from ECA&D [1] a project that makes available daily 
