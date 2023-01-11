@@ -1,5 +1,9 @@
 Weather prediction dataset
 
+Dataset created for machine learning and deep learning training and teaching purposes.
+Can for instance be used for classification, regression, and forecasting tasks.
+Complex enough to demonstrate realistic issues such as overfitting and unbalanced data, while still remaining intuitively accessible.
+
 ORIGINAL DATA TAKEN FROM:
 
 EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 22-04-2021
@@ -48,8 +52,10 @@ Physical units of the variables:
 ----------
 
 ORIGINAL DATA UNITS:
+
+Two-letter codes represented feature/variable type in ECA&D datasets.
+
 CC   : cloud cover in oktas
-DD   : wind direction in degrees
 FG   : wind speed in 0.1 m/s
 FX   : wind gust in 0.1 m/s
 HU   : humidity in 1 %
@@ -63,15 +69,16 @@ TX   : maximum temperature in 0.1 &#176;C
 
 
 CONVERTED to:
-CC   : cloud cover in oktas
-DD   : wind direction in degrees
-FG   : wind speed in 1 m/s
-FX   : wind gust in 1 m/s
-HU   : humidity in fraction of 100 %
-PP   : sea level pressure in 1000 hPa
-QQ   : global radiation in 100 W/m2
-RR   : precipitation amount in 10 mm
-SS   : sunshine in 1 Hours
-TG   : mean temperature in 1 &#176;C
-TN   : minimum temperature in 1 &#176;C
-TX   : maximum temperature in 1 &#176;C
+| Feature (type)   | Column name 		| Description 		| Physical Unit 	|
+|------------------|----------------------|-----------------------|-----------------|
+| mean temperature | _temp_mean  		| mean daily temperature| in 1 &#176;C  	|
+| max temperature  | _temp_max   		| max daily temperature | in 1 &#176;C  	|
+| min temperature  | _temp_min   		| min daily temperature | in 1 &#176;C  	|
+| cloud_cover      | _cloud_cover		| cloud cover           | oktas  		|
+| wind_speed       | _wind_gust  		| wind gust    		| in 1 m/s 		|
+| wind_gust        | _wind_speed 		| wind speed   		| in 1 m/s 		|
+| humidity         | _humidity   		| humidity              | in 1 %  		|
+| pressure         | _pressure   		| pressure              | in 1000 hPa  	|
+| global_radiation | _global_radiation 	| global radiation      | in 100 W/m2  	|
+| precipitation    | _precipitation 	| daily precipitation 	| in 10 mm  	|
+| sunshine    	 | _sunshine 		| sunshine hours  	| in 0.1 hours 	|
