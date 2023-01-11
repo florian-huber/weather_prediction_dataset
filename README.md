@@ -47,21 +47,19 @@ pressure in 1000 hPa, global radiation in 100 W/m2, precipitation amounts in cen
 
 ## Physical units of the variables:
 
-
-| Feature (type)   | Column name | Description | Physical Unit |
-|------------------|-------------|---------------|---|
-| mean temperature | _temp_mean | mean daily temperature | in 1 &#176;C  |
-| max temperature  | _temp_max | max daily temperature | in 1 &#176;C  |
-| min temperature  | _temp_min | min daily temperature | in 1 &#176;C  |
-| cloud_cover      | _cloud_cover | cloud cover              | oktas  |
-| wind_speed       | _wind_gust | wind gust    | in 1 m/s |
-| wind_gust        | _wind_speed | wind speed   | in 1 m/s |
-| humidity         | _humidity | humidity             | in 1 %  |
-| pressure         | _pressure | pressure              | in 1000 hPa  |
-| global_radiation | _global_radiation | global radiation              | in 100 W/m2  |
-| precipitation    | _precipitation | daily precipitation (rain fall)             | in 10 mm  |
-| sunshine    | _sunshine | sunshine hours  | in 0.1 hours |
-
+| Feature (type)   | Column name 		| Description 		| Physical Unit 	|
+|------------------|----------------------|-----------------------|-----------------|
+| mean temperature | _temp_mean  		| mean daily temperature| in 1 &#176;C  	|
+| max temperature  | _temp_max   		| max daily temperature | in 1 &#176;C  	|
+| min temperature  | _temp_min   		| min daily temperature | in 1 &#176;C  	|
+| cloud_cover      | _cloud_cover		| cloud cover           | oktas  		|
+| global_radiation | _global_radiation 	| global radiation      | in 100 W/m2  	|
+| humidity         | _humidity   		| humidity              | in 1 %  		|
+| pressure         | _pressure   		| pressure              | in 1000 hPa  	|
+| precipitation    | _precipitation 	| daily precipitation 	| in 10 mm  	|
+| sunshine    	   | _sunshine 		| sunshine hours  	| in 0.1 hours 	|
+| wind_speed       | _wind_gust  		| wind gust    		| in 1 m/s 		|
+| wind_gust        | _wind_speed 		| wind speed   		| in 1 m/s 		|
 
 
 ## References
